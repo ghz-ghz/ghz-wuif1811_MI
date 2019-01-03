@@ -1,5 +1,8 @@
 body{
-	background: #F5F5F5;
+	background: #fff;
+}
+.main{
+	padding: 0;
 }
 /* head开始 */
 .head{
@@ -177,24 +180,6 @@ body{
 	cursor: pointer;
 }
 /* 导航结束 */
-/* 分类推荐开始 */
-.category-title{
-	width: 1226px;
-	height: 40px;
-	margin: 0 auto;
-	line-height: 40px;
-}
-.category-title p{
-	float: left;
-	font-size: 12px;
-	color: #757575;
-}
-.category-title i{
-	float: left;
-	font-size: 10px;
-	color: #b0b0b0;
-	margin: 0 5px;
-}
 /* 商品详情开始 */
 .goods-detail-info{
 	width: 1226px;
@@ -202,15 +187,36 @@ body{
 	background: yellow;
 	margin: 0 auto;
 }
-.goods-detail-info .img-small{
-	width: 60px;
+.detail-nav-bigbox{
+	width:100%;
 	height: 60px;
-	border: 1px solid #ff6700;
-	padding: 4px;
-	background:#fff;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	background: #fff;
+	box-shadow:0 3px 30px 2px rgba(0,0,0,0.1);
 }
-.goods-detail-info .img-small img{
-	width: 60px;
+.detail-nav-box{
+	width: 1226px;
 	height: 60px;
+	margin: 0 auto;
 }
-/* 商品详情结束 */
+.detail-nav-box .nav-left{
+	font-size: 18px;
+	color: #212121;
+	line-height: 60px;
+	float: left;
+}
+.detail-nav-box ul{
+	float: right;
+}
+.detail-nav-box ul>li{
+	font-size: 14px;
+	color: #616161;
+	float: left;
+	padding:0 25px;
+	border-left: 1px solid #E0E5EC;
+	margin-top: 20px;
+}
+.detail-nav-box ul>.active{
+	border-left:none;
+}
