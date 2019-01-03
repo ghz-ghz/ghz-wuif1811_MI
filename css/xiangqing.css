@@ -150,6 +150,28 @@ body{
 	right:48px;
 	line-height: 18px;
 }
+.sousuo-tishi{
+	width: 200px;
+	height: 18px;
+	position:absolute;
+	top:15px;
+	right:48px;
+	line-height: 18px;
+}
+.sousuo-tishi span{
+	font-size: 12px;
+	color: #9e9e9e;
+	background: #eeeeee;
+	padding: 1px 2px;
+}
+.sousuo-tishi span:hover{
+	color: #fff;
+	background: #ff6700;
+	cursor: pointer;
+}
+.sousuo-tishi .tishi1{
+	margin: 0 5px;
+}
 .sousuo-tishi span{
 	font-size: 12px;
 	color: #9e9e9e;
@@ -180,6 +202,12 @@ body{
 	cursor: pointer;
 }
 /* 导航结束 */
+.main{
+	width: 1226px;
+	padding: 20px 0;
+	height: 700px;
+	margin: 0 auto;
+}
 /* 商品详情开始 */
 .goods-detail-info{
 	width: 1226px;
@@ -213,10 +241,375 @@ body{
 	font-size: 14px;
 	color: #616161;
 	float: left;
-	padding:0 25px;
+	padding:0 15px;
 	border-left: 1px solid #E0E5EC;
 	margin-top: 20px;
+}
+.detail-nav-box ul>li:hover{
+	color: #ff6700;
+	cursor: pointer;
 }
 .detail-nav-box ul>.active{
 	border-left:none;
 }
+.detail-nav-box ul>.right{
+	padding-right: 0;
+}
+.detail-box{
+	width: 1226px;
+	height:600px;
+	margin: 0 auto;
+}
+.detail-box .img-box{
+	width: 560px;
+	height: 560;
+	margin-top: 20px;
+	position: relative;
+	float: left;
+}
+.detail-box .img-box img{
+	width: 100%;
+	height: 100%;
+}
+.detail-box .img-box .button{
+	width: 40px;
+	height: 70px;
+	color: #D7D7D7;
+	text-align: center;
+	line-height: 70px;
+}
+.detail-box .img-box .left-button{
+	position: absolute;
+	left: 0;
+	top: 245px;
+}
+.detail-box .img-box .right-button{
+	position: absolute;
+	right: 0;
+	top: 245px;
+}
+.detail-box .img-box .button:hover{
+	background: #7F7F7F;
+	color: #fff;
+}
+.detail-box .img-box .line-box{
+	width: 560px;
+	height: 24px;
+	padding: 5px 165px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+}
+.detail-box .img-box .line-box .line{
+	width: 50px;
+	height: 2px;
+	background: #CCCCCC;
+	float: left;
+	margin-left: 10px;
+}
+.detail-box .img-box .line-box .active{
+	background: #ABABAB;
+	margin-left: 0;
+}
+.detail-box .detail-right-box{
+	width: 606px;
+	height:576px;
+	float:right;
+	margin-top: 24px;
+}
+.detail-title-box{
+	width: 606px;
+	height: 24px;
+}
+.detail-title-box .img-box{
+	width: 50px;
+	height: 24px;
+	float: left;
+	margin-top: 0;
+}
+.detail-title-box .img-box img{
+	width: 100%;
+	height: 100%;
+}
+.detail-title-box p{
+	float: left;
+	margin-left: 10px;
+	font-size: 24px;
+	color: #212121;
+}
+.detail-right-box .detail-miaoshu{
+	font-size: 14px;
+	color: #B0B0B0;
+	margin-top: 8px;
+}
+.detail-right-box .ziying{
+	font-size: 14px;
+	color: #ff6700;
+	margin-top: 8px;
+}
+.detail-right-box .price{
+	font-size: 14px;
+	color: #ff6700;
+	margin:10px 0 20px 0;
+}
+.detail-right-box .zengpin-box{
+	width:606px;
+	height: 26px;
+	padding: 12px 0;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+}
+.detail-right-box .zengpin{
+	width:80px;
+	height: 26px;
+	background: #ff6700;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 26px;
+	float: left;
+}
+.detail-right-box .zeng{
+	float: left;
+    font-size: 14px;
+    color: #333333;
+	line-height: 26px;
+	margin-left: 10px;
+}
+.detail-right-box .address-box{
+	width: 606px;
+	height: 106px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+	padding: 30px 40px 30px;
+	margin-top: 40px;
+	background: #FAFAFA;
+}
+.detail-right-box .address-box .iconfont{
+	float: left;
+	margin: 0 15px 0 0;
+}
+.detail-right-box .address-box p{
+	font-size: 14px;
+	color: #333;
+}
+.detail-right-box .address-box span{
+	color: #ff6700;
+}
+.detail-right-box .address-box .xianhuo{
+	color: #ff6700;
+	margin-left: 30px;
+}
+.detail-right-box .banben{
+    font-size: 14px;	
+	color: #333;
+	margin-top: 20px;
+}
+.detail-right-box .banben-fenlei-box{
+	width: 606px;
+	height: 98px;
+	padding: 10px 0;
+}
+.detail-right-box .banben-fenlei{
+	width:298px;
+	height: 41px;
+	border: 1px solid #E0E0E0;
+	padding: 0 30px;
+	box-sizing: border-box;
+	float: left;
+	margin:0 5px 10px 0;
+	line-height: 41px;
+	color: #333;
+	font-size: 14px;
+}
+.detail-right-box .banben-fenlei span{
+	color: #b0b0b0;
+	float: right;
+}
+.detail-right-box .active{
+	border: 1px solid #ff6700;
+	color: #ff6700;
+}
+.detail-right-box .active span{
+	color: #333;
+}
+.detail-right-box .banben-fenlei img{
+	width: 16px;
+	height: 16px;
+	margin-right: 15px;
+	margin-top:5px;
+}
+.detail-right-box .banben-fenlei-box .color{
+	text-align: center;
+	line-height: 38px;
+}
+/* 商品详情结束 */
+/* 售后服务开始 */
+.footer-big-box{
+	width: 1226px;
+	margin: 0 auto;
+}
+.after-sales-box{
+	width: 1226px;
+	height: 82px;
+	border-bottom: 1px solid #e3e3e3;
+	margin:0 auto;
+	padding: 100px 0 0 0;
+}
+.after-sales-list{
+	width: 244.4px;
+	height: 25px;
+	border-left: 1px solid #e3e3e3;
+	float: left;
+	margin-top: 28.5px;
+	text-align: center;
+	color: #4d4d4d;
+}
+.after-sales-list .iconfont{
+	margin: 0 7px;
+	font-size: 24px;
+}
+.after-sales-list:hover{
+	color: #ff6700;
+}
+.after-sales-box .active{
+	border: none;
+}
+/* 售后服务结束 */
+/* 服务列表开始 */
+.serve-list-box{
+	width: 1226px;
+	height:196px;
+	padding: 24px 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.serve-list-left{
+	width: 980.8px;
+	height: 100%;
+	float: left;
+}
+.serve-list-left .serve-list{
+	width: 163.46666666666666666666px;
+	height: 100%;
+	float: left;
+}
+
+.serve-list-left .serve-list ul>li{
+	font-size: 12px;
+	color: #747474;
+	margin-top: 16px;
+}
+.serve-list-left .serve-list .title{
+	font-size: 14px;
+	color: #3c3c3c;
+	/* margin-bottom:30px; */
+}
+.serve-list-right{
+	width:244.2px;
+	height: 100%;
+	border-left: 1px solid #e3e3e3;
+	float: left;
+	text-align: center;
+}
+.serve-list-box .serve-list-right>.telephone{
+	font-size: 18px;
+	margin:16px 0 2px 0;
+	color: #ff6700;
+	font-weight:500;
+}
+.serve-list-box .serve-list-right .tiaojian{
+	font-size: 12px;
+	color: #777777;
+	margin:2px 0;
+}
+.serve-list-right .time{
+	font-size: 12px;
+	color: #777777;
+}
+.serve-list-right .lianxikefu{
+	width: 122px;
+	height: 32px;
+	border: 2px solid #ff6700;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 3px;
+	margin: 19px 0 0 61.1px;
+	font-size: 12px;
+	color: #ff6700;
+	line-height:26px;
+}
+.serve-list-right .lianxikefu .iconfont{
+	margin-right: 4px;
+}
+/* 服务列表结束 */
+/* 底部信息开始 */
+ .foot-info-box{
+	 width: 1226px;
+	 height: 180px;
+	 margin: 0 auto;
+	 padding: 30px 0;
+	 box-sizing: border-box;
+	 background: #FAFAFA;
+ }
+ .foot-info-box .left{
+	 width: 57px;
+	 height: 57px;
+	 float: left;
+	 margin-right: 8px;
+ }
+ .foot-info-box .right{
+	 float: left;
+	 width: calc(100% - 100px);
+	 height: 132px;
+ }
+ .foot-info-box .right ul{
+	 width: 100%;
+	 height: 18px;
+ }
+ .foot-info-box .right ul>li{
+	 float: left;
+	 font-size: 12px;
+	 color: #777777;
+	 line-height: 18px;
+	 margin: 0 3px;
+ }
+ .foot-info-box .right ul>.info{
+ 	float: left;
+ 	font-size: 12px;
+ 	color: #b0b0b0;
+ 	line-height: 18px;
+ 	margin: 0 3px;
+ }
+ .foot-info-box .right .line{
+	 background: #c0c0c0;
+	 width: 2px;
+	 height: 12px;
+	 margin: 3px 0;
+	 float: left;
+ }
+ .foot-info-box .right ul>li:hover{
+     color: #ff6700;
+     cursor: pointer;
+ }
+ .foot-info-box .right .foot-img-box{
+	 width: 100%;
+	 height: 28px;
+	 margin-top:15px;
+ }
+.foot-img-box img{
+	 width: 85px;
+	 height: 28px;
+	 display: block;
+	 float: left;
+ }
+ /* 底部信息结束 */
+ .foot-biaoyu{
+	 width: 100%;
+	 height: 80px;
+	 font-size: 18px;
+	 color: #b8b8b8;
+	 text-align: center;
+	 line-height: 80px;
+	 font-family: "楷体";
+ }
