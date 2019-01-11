@@ -113,6 +113,10 @@
 	margin:25px 0;
 	position: relative;
 }
+.daohang .sousuo:hover{
+	border:1px solid #b0b0b0;
+	cursor: pointer;
+}
 .sousuo input{
 	width:244px;
 	height:48px;
@@ -153,12 +157,15 @@
 	outline: none;
 	box-sizing: border-box;
 }
+.daohang .sousuo:hover .sousuo-right{
+	border-left:1px solid #b0b0b0;
+	cursor: pointer;
+}
 .sousuo .sousuo-right:hover{
 	color: #fff;
 	background: #ff6700;
 	cursor: pointer;
 }
-
 /* 导航结束 */
 /* banner开始 */
 .banner{
